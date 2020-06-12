@@ -1,9 +1,10 @@
 // change everything below to the newer Javascript!
 
 // let + const
-var a = 'test';
-var b = true;
-var c = 789;
+let a = 'test';
+
+const b = true;
+const c = 789;
 a = 'test2';
 
 
@@ -19,6 +20,8 @@ var firstName = person.firstName;
 var lastName = person.lastName;
 var age = person.age;
 var eyeColor = person.eyeColor;
+//destructured:
+const {firstName, lastName, age, eyeColor} = person
 
 
 // Object properties
