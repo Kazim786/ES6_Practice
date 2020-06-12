@@ -50,6 +50,8 @@ let message = `Hello ${firstName} have i met you before? I think we met in ${cit
 function isValidAge(age) {
     return age
 }
+//Used arrow functions and set age default to 10
+const isValidAge = (age = 10) => age
 
 // Symbol
 // Create a symbol: "This is my first Symbol"
