@@ -41,7 +41,9 @@ const okObj {a, b, c}
 
 // Template strings
 var message = "Hello " + firstName + " have I met you before? I think we met in " + city + " last summer no???";
+//Template strings ES6:
 
+let message = `Hello ${firstName} have i met you before? I think we met in ${city} last summer no???`
 
 // default arguments
 // default age to 10;
