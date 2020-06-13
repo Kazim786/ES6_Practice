@@ -18,7 +18,7 @@ const person = {
 const { firstName, lastName, age, eyeColor } = person;
 
 
-// Object properties
+// Object properties. Turning variables into an object
 const a = 'test';
 const b = true;
 const c = 789;
